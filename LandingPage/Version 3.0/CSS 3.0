@@ -1,1 +1,333 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.topheader {
+  position: fixed;
+  background-color: #ffd0d0;
+  width: 97.5%;
+  z-index: 100;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /*flex-start para alinear mas al logo */
+  padding: 0px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  font-weight: 400;
+  color: #161a1d;
+}
+
+/*Boton: Iniciar sesión*/
+.iniciar-sesion-link {
+  background-color: #660708;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 9px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 0;
+  align-self: left;
+}
+
+.menu-horizontal li a {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+}
+.menu-horizontal li a:hover {
+  color: #ba181b;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgb(239, 236, 236);
+}
+
+.menu-vertical li a {
+  display: block;
+  color: black;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+}
+
+.menu-vertical li:hover {
+  background-color: black;
+}
+
+body {
+  background-image: url("/img/challenge.png");
+  background-size: cover; /* Cambia a 'cover' para cubrir el área sin estirarse */
+  background-position: top center; /* Cambia la posición para que empiece desde la parte superior */
+  background-repeat: no-repeat;
+  height: 100vh; /* Cambia a 100vh para ajustar la altura del fondo */
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Styles for HOME */
+
+.home-link {
+  border: 2px solid #660708;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #161a1d;
+  padding: 10px 20px;
+}
+
+/*Servicios/*/
+
+/* Estilo general */
+.principal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  min-height: 99vh; /* Mantén esto para ocupar al menos la altura de la ventana */
+  padding: 70px 70px;
+  text-align: left;
+}
+
+.principal-info h3 {
+  color: #161a1d;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+/*Letras en máyuscula*/
+.Mayuscula {
+  color: #660708;
+  font-size: bold;
+  font-weight: 700;
+}
+
+.principal-info h1 {
+  color: #333333;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: "Advent Pro", sans-serif;
+}
+
+.principal-info p {
+  color: #161a1d;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  text-align: left;
+  font-family: "Afacad", sans-serif;
+}
+
+.btn_submit {
+  background-color: #660708;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 0;
+  align-self: left;
+  font-family: "Inter", sans-serif;
+}
+
+.btn_submit:hover {
+  background-color: #ba181b;
+}
+
+.logo img {
+  width: 300px; /* Ajusta el ancho deseado */
+  height: auto; /* Mantén la proporción original de la imagen */
+}
+
+/* servicios seccion  */
+
+.servicios-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+.servicios-titulo {
+  font-family: "Afacad", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.servicios-texto {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn_iniciar {
+  display: flex; /* Utiliza Flexbox para alinear el texto y el ícono */
+  align-items: center; /* Centra verticalmente el texto y el ícono */
+  justify-content: space-between; /* Espacio entre el texto y el ícono */
+  background-color: #8b1d2c;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px; /* Espacio entre el texto y el ícono */
+  font-size: 20px;
+}
+
+#Iniciar {
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra el botón horizontalmente */
+}
+
+/* Nuevos estilos para los iconos alrededor del botón */
+.button-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icono-group {
+  display: flex;
+}
+
+.icono-group.left {
+  margin-right: 10px; /* Espacio entre el grupo de iconos y el botón */
+}
+
+.icono-group.right {
+  margin-left: 10px; /* Espacio entre el grupo de iconos y el botón */
+}
+
+.icono {
+  margin: 0 160px; /* Espacio entre los iconos */
+}
+
+.icono img {
+  width: 40px; /* Ajusta el tamaño de los iconos */
+  height: 40px; /* Ajusta el tamaño de los iconos */
+}
+
+/*nosotros seccion*/
+
+.nosotros-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: rgba(186, 24, 27, 0.15); /* 15% de opacidad */
+}
+
+.nosotros-info {
+  display: flex; /* Activa Flexbox */
+  align-items: center; /* Alinea verticalmente el contenido si es necesario */
+  justify-content: space-between; /* Separa el texto y la imagen */
+}
+
+.nosotros-texto {
+  flex: 1;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Afacad", sans-serif;
+}
+
+.nosotros-texto strong {
+  color: #ba181b; /* Cambia el color a rojo */
+  font-weight: bold;
+}
+
+/*soporte seccion*/
+
+.soporte-section {
+  text-align: center; /* Centra todo el contenido en la sección */
+  padding: 20px;
+  background-color: #ffff;
+}
+
+.soporte-titulo {
+  font-size: 2rem;
+  margin-bottom: 40px; /* Espacio entre el título y los recuadros */
+  margin-top: 0 auto;
+  color: #161a1d;
+  font-family: "Inter", sans-serif;
+}
+
+.soporte-item {
+  width: 20%;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 0 15px; /* Espaciado horizontal entre recuadros */
+  display: inline-block; /* Hace que los items se comporten como elementos en línea */
+  transition: transform 0.3s ease;
+}
+
+.soporte-item:hover {
+  transform: translateY(-5px); /* Animación al pasar el ratón */
+}
+
+.soporte-item i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #ba181b; /* Color rojo para los íconos */
+}
+
+.soporte-item h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+}
+
+.soporte-item p {
+  font-size: 0.75rem;
+  color: #666;
+  font-family: "Inter";
+}
+
+.soporte-seguridad {
+  font-size: 2rem;
+  color: #ba181b; /* Color rojo */
+  margin-top: 50px; /* Espacio para separarlo de los recuadros */
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+}
 
