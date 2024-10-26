@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AuthenTrace</title>
+    <link rel="stylesheet" href="styles.css" />
+        <link
+      rel="stylesheet"
+      href="https://unpkg.com/remixicon@2.5.0/fonts/remixicon.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=M+PLUS+Rounded+1c&family=Advent+Pro&family=Afacad&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <body style="background-color: #FFFF">
+
+      <!-- MENU -->
+      <nav class="topheader">
+        <a href="" class="logo">
+          <img height="80" width="120" src="img/logo2.png" alt="" />
+        </a>
+  
+        <ul class="menu-horizontal">
+          <li>
+            <a href="#Principal" class="home-link">HOME</a>
+            <ul class="menu-vertical">
+              <li><a href="#Nosotros">Nosotros</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="#Servicios">SERVICIOS</a>
+          </li>
+  
+          <li>
+            <a href="#Nosotros">NOSOTROS</a>
+          </li>
+  
+          <li>
+            <a href="#Soporte">SOPORTE</a>
+          </li>
+  
+          <li>
+            <a href="" class="iniciar-sesion-link">INICIAR SESIÓN</a>
+          </li>
+  
+        </ul>
+
+      </nav>
+
+      <!----principal seccion -->
+      <section class="principal-section">
+        <div id="Principal">
+        <div class="principal-info">
+          <h3>
+            <span class="Mayuscula">CONFIANZA</span> en cada firma,<br>
+            <span class="Mayuscula">SEGURIDAD</span> en cada documento
+          </h3>
+          <h1>Detección precisa de fraudes en firmas manuscritas</h1>
+          <p>
+            Transformamos la manera en que verificas documentos, detectando fraudes de 
+            forma rápida y eficiente. Utilizamos tecnología avanzada para garantizar la 
+            autenticidad de cada firma, protegiendo tus procesos legales y financieros. 
+            No dejamos la seguridad al azar, confiamos en la innovación.
+          </p>
+        </div>
+
+        <div id="Submit">
+          <input type="submit" class="btn_submit" value="Crear Cuenta"> </input>
+        </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
