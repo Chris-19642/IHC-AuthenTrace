@@ -23,7 +23,7 @@
   
         <ul class="menu-horizontal">
           <li>
-            <a href="#Principal" class="home-link">HOME</a>
+            <a href="#Principal">HOME</a>
             <ul class="menu-vertical">
               <li><a href="#Nosotros">Nosotros</a></li>
             </ul>
