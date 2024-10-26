@@ -1,1 +1,109 @@
+/* servicios seccion  */
 
+.servicios-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+.servicios-titulo {
+  font-family: "Afacad", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.servicios-texto {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn_iniciar {
+  display: flex; /* Utiliza Flexbox para alinear el texto y el ícono */
+  align-items: center; /* Centra verticalmente el texto y el ícono */
+  justify-content: space-between; /* Espacio entre el texto y el ícono */
+  background-color: #8b1d2c;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px; /* Espacio entre el texto y el ícono */
+  font-size: 20px;
+}
+
+#Iniciar {
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra el botón horizontalmente */
+}
+
+/* Nuevos estilos para los iconos alrededor del botón */
+.button-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icono-group {
+  display: flex;
+}
+
+.icono-group.left {
+  margin-right: 10px; /* Espacio entre el grupo de iconos y el botón */
+}
+
+.icono-group.right {
+  margin-left: 10px; /* Espacio entre el grupo de iconos y el botón */
+}
+
+.icono {
+  margin: 0 160px; /* Espacio entre los iconos */
+}
+
+.icono img {
+  width: 40px; /* Ajusta el tamaño de los iconos */
+  height: 40px; /* Ajusta el tamaño de los iconos */
+}
+
+/*nosotros seccion*/
+
+.nosotros-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: rgba(186, 24, 27, 0.15); /* 15% de opacidad */
+}
+
+.nosotros-info {
+  display: flex; /* Activa Flexbox */
+  align-items: center; /* Alinea verticalmente el contenido si es necesario */
+  justify-content: space-between; /* Separa el texto y la imagen */
+}
+
+.nosotros-texto {
+  flex: 1;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Afacad", sans-serif;
+}
+
+.nosotros-texto strong {
+  color: #ba181b; /* Cambia el color a rojo */
+  font-weight: bold;
+}
