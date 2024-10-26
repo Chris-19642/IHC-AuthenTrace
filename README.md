@@ -6,4 +6,5 @@ Nuestro objetivo es prevenir alteraciones y falsificaciones, protegiendo así a 
 nuestra plataforma contribuye a reducir pérdidas económicas y mejorar la seguridad en la gestión documental.
 
 
+![logo2](https://github.com/user-attachments/assets/121e2a0b-1768-4b0b-8d99-ceb97712df79)
 
