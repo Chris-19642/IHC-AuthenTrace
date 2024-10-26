@@ -23,26 +23,26 @@
   
         <ul class="menu-horizontal">
           <li>
-            <a href="#Principal" class="home-link">HOME</a>
+            <a href="#Principal">HOME</a>
             <ul class="menu-vertical">
-              <li><a href="#Nosotros">Nosotros</a></li>
+              <li><a href="">Nosotros</a></li>
             </ul>
           </li>
   
           <li>
-            <a href="#Servicios">SERVICIOS</a>
+            <a href="">SERVICIOS</a>
           </li>
   
           <li>
-            <a href="#Nosotros">NOSOTROS</a>
+            <a href="">NOSOTROS</a>
           </li>
   
           <li>
-            <a href="#Soporte">SOPORTE</a>
+            <a href="">SOPORTE</a>
           </li>
   
           <li>
-            <a href="" class="iniciar-sesion-link">INICIAR SESIÓN</a>
+            <a href="">INICIAR SESIÓN</a>
           </li>
   
         </ul>
